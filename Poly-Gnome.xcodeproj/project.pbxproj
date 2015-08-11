@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		679473951B75159E00ED2ADA /* E-Kick 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 679473931B75159E00ED2ADA /* E-Kick 7.wav */; };
+		679473961B75159E00ED2ADA /* E-Perc 15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 679473941B75159E00ED2ADA /* E-Perc 15.wav */; };
 		67A710D71931319C008A72AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A710D61931319C008A72AE /* Foundation.framework */; };
 		67A710D91931319C008A72AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A710D81931319C008A72AE /* CoreGraphics.framework */; };
 		67A710DB1931319C008A72AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A710DA1931319C008A72AE /* UIKit.framework */; };
@@ -21,6 +23,11 @@
 		67A710F81931319C008A72AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A710DA1931319C008A72AE /* UIKit.framework */; };
 		67A711001931319C008A72AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67A710FE1931319C008A72AE /* InfoPlist.strings */; };
 		67A711021931319C008A72AE /* Poly_GnomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A711011931319C008A72AE /* Poly_GnomeTests.m */; };
+		67A71110193180CD008A72AE /* PGBottomDivisionSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A7110F193180CD008A72AE /* PGBottomDivisionSlider.m */; };
+		67A71113193180EE008A72AE /* PGTempoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A71112193180EE008A72AE /* PGTempoSlider.m */; };
+		67A711161931812B008A72AE /* PGTopDivisionSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A711151931812B008A72AE /* PGTopDivisionSlider.m */; };
+		67A7111919318710008A72AE /* PGKonokol.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A7111819318710008A72AE /* PGKonokol.m */; };
+		67A7111D19319AF6008A72AE /* PGKonokolDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A7111C19319AF6008A72AE /* PGKonokolDisplayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		679473931B75159E00ED2ADA /* E-Kick 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "E-Kick 7.wav"; path = "../../../../Dropbox (Personal)/AziOwn/E-Kick 7.wav"; sourceTree = "<group>"; };
+		679473941B75159E00ED2ADA /* E-Perc 15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "E-Perc 15.wav"; path = "../../../../Dropbox (Personal)/AziOwn/E-Perc 15.wav"; sourceTree = "<group>"; };
 		67A710D31931319C008A72AE /* Poly-Gnome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poly-Gnome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A710D61931319C008A72AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67A710D81931319C008A72AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,16 @@
 		67A710FD1931319C008A72AE /* Poly-GnomeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Poly-GnomeTests-Info.plist"; sourceTree = "<group>"; };
 		67A710FF1931319C008A72AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67A711011931319C008A72AE /* Poly_GnomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poly_GnomeTests.m; sourceTree = "<group>"; };
+		67A7110E193180CD008A72AE /* PGBottomDivisionSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBottomDivisionSlider.h; sourceTree = "<group>"; };
+		67A7110F193180CD008A72AE /* PGBottomDivisionSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBottomDivisionSlider.m; sourceTree = "<group>"; };
+		67A71111193180EE008A72AE /* PGTempoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTempoSlider.h; sourceTree = "<group>"; };
+		67A71112193180EE008A72AE /* PGTempoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGTempoSlider.m; sourceTree = "<group>"; };
+		67A711141931812B008A72AE /* PGTopDivisionSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTopDivisionSlider.h; sourceTree = "<group>"; };
+		67A711151931812B008A72AE /* PGTopDivisionSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGTopDivisionSlider.m; sourceTree = "<group>"; };
+		67A7111719318710008A72AE /* PGKonokol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGKonokol.h; path = Models/PGKonokol.h; sourceTree = "<group>"; };
+		67A7111819318710008A72AE /* PGKonokol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGKonokol.m; path = Models/PGKonokol.m; sourceTree = "<group>"; };
+		67A7111B19319AF6008A72AE /* PGKonokolDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGKonokolDisplayViewController.h; sourceTree = "<group>"; };
+		67A7111C19319AF6008A72AE /* PGKonokolDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGKonokolDisplayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +101,8 @@
 		67A710CA1931319C008A72AE = {
 			isa = PBXGroup;
 			children = (
+				67A711141931812B008A72AE /* PGTopDivisionSlider.h */,
+				67A711151931812B008A72AE /* PGTopDivisionSlider.m */,
 				67A710DC1931319C008A72AE /* Poly-Gnome */,
 				67A710FB1931319C008A72AE /* Poly-GnomeTests */,
 				67A710D51931319C008A72AE /* Frameworks */,
@@ -112,11 +133,20 @@
 		67A710DC1931319C008A72AE /* Poly-Gnome */ = {
 			isa = PBXGroup;
 			children = (
+				679473931B75159E00ED2ADA /* E-Kick 7.wav */,
+				679473941B75159E00ED2ADA /* E-Perc 15.wav */,
 				67A710E51931319C008A72AE /* PGAppDelegate.h */,
 				67A710E61931319C008A72AE /* PGAppDelegate.m */,
 				67A710E81931319C008A72AE /* Main.storyboard */,
+				67A7111B19319AF6008A72AE /* PGKonokolDisplayViewController.h */,
+				67A7111C19319AF6008A72AE /* PGKonokolDisplayViewController.m */,
+				67A7110E193180CD008A72AE /* PGBottomDivisionSlider.h */,
+				67A7110F193180CD008A72AE /* PGBottomDivisionSlider.m */,
+				67A71111193180EE008A72AE /* PGTempoSlider.h */,
+				67A71112193180EE008A72AE /* PGTempoSlider.m */,
 				67A710EB1931319C008A72AE /* PGViewController.h */,
 				67A710EC1931319C008A72AE /* PGViewController.m */,
+				67A7111A19318725008A72AE /* Models */,
 				67A710EE1931319C008A72AE /* Images.xcassets */,
 				67A710DD1931319C008A72AE /* Supporting Files */,
 			);
@@ -150,6 +180,15 @@
 				67A710FE1931319C008A72AE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67A7111A19318725008A72AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67A7111719318710008A72AE /* PGKonokol.h */,
+				67A7111819318710008A72AE /* PGKonokol.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +268,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679473961B75159E00ED2ADA /* E-Perc 15.wav in Resources */,
 				67A710EF1931319C008A72AE /* Images.xcassets in Resources */,
 				67A710E11931319C008A72AE /* InfoPlist.strings in Resources */,
 				67A710EA1931319C008A72AE /* Main.storyboard in Resources */,
+				679473951B75159E00ED2ADA /* E-Kick 7.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A7111D19319AF6008A72AE /* PGKonokolDisplayViewController.m in Sources */,
+				67A711161931812B008A72AE /* PGTopDivisionSlider.m in Sources */,
 				67A710E31931319C008A72AE /* main.m in Sources */,
 				67A710ED1931319C008A72AE /* PGViewController.m in Sources */,
 				67A710E71931319C008A72AE /* PGAppDelegate.m in Sources */,
+				67A71110193180CD008A72AE /* PGBottomDivisionSlider.m in Sources */,
+				67A7111919318710008A72AE /* PGKonokol.m in Sources */,
+				67A71113193180EE008A72AE /* PGTempoSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +503,7 @@
 				67A711071931319C008A72AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67A711081931319C008A72AE /* Build configuration list for PBXNativeTarget "Poly-GnomeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +512,7 @@
 				67A7110A1931319C008A72AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
